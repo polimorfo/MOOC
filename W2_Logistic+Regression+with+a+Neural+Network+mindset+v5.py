@@ -363,7 +363,7 @@ def propagate(w, b, X, Y):
     ### START CODE HERE ### (≈ 2 lines of code)
     A = sigmoid (np.dot(w.T,X) +b)                              # compute activation
     #print(A)
-    cost = (-1 / m) * (np.sum ((Y * np.log(A) + (1-Y)) * (np.log(1-A))))             # compute cost
+    cost = (-1 / m) * (np.sum (Y * np.log(A) + (1-Y) * (np.log(1-A))))             # compute cost
     
     ### END CODE HERE ###
     
