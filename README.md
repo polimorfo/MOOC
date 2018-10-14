@@ -13,3 +13,6 @@ Structuring Machine Learning Projects
 - Course 4
 Convolutional Neural Networks
 
+- Course 5
+Sequence Models
+
